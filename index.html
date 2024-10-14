@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Library</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <button class="add-book">
+            + Add book
+        </button>
+        <div class="book-shelf">
+
+        </div>
+        <!-- Dialog Eement -->
+         <dialog id="dialog">
+            <form action="">
+                <h2>
+                    Add new book
+                    <button type="button" class="close-button">&times;</button>
+                </h2>
+                <div class="div-row">
+                    <input type="text" placeholder="Title" id="title" required>
+                </div>
+                <div class="div-row">
+                    <input type="text" placeholder="Author" id="author" required>
+                </div>
+                <div class="div-row">
+                    <input type="number" placeholder="Pages" id="pages" required>
+                </div>
+                <div>
+                    Have you read it?
+                    <input type="checkbox">
+                </div>
+                <div>
+                    <button type="submit" class="submit">Submit</button>
+                </div>
+            </form>
+         </dialog>
+    </main>
+    <footer>
+        Copyright &copy; Gabriel Afotey
+    </footer>
+</body>
+</html>
